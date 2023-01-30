@@ -1,0 +1,158 @@
+/*====GLOBAL VALUES====*/
+* {
+    font-family: 'Helvetica';
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    opacity: 0.9;
+}
+
+body {
+    opacity: 0.9;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/*====Header Section====*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-container img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-box ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-box li {
+    margin-right: 15px;
+}
+
+/*====Our Mission Section====*/
+
+.our-mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.our-mission-img {
+    height: 700px;
+    width: 1200px;
+    position: relative;
+}
+
+.our-mission-content {
+    position: absolute;
+    width: 1200px;
+    background-color: black;
+}
+
+/*====Featured Tea Section====*/
+
+.featured-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.images-box p{
+    margin-top: 10px;
+}
+
+.featured-images {
+    margin: 10px;
+}
+
+.top-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-images{
+  display: flex;
+  justify-content: center;
+}
+
+.featured-images {
+    height: 200px;
+    width: 300px;
+}
+
+/*====Location Section====*/
+ 
+.location-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(/images/img-locations-background.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: .9;
+    margin-top: 30px;
+}
+
+.location-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.location-box {
+    display: flex;
+    flex-shrink: 5;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px 40px ;
+    opacity: 1;
+}
+
+/*====Footer Section====*/
+
+.contact-container {
+    text-align: center;
+    margin-top: 20px;
+    height: 200px;
+}
+
+h5.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
