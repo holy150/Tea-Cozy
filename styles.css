@@ -84,30 +84,31 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    flex-direction: column;
 }
 
 .images-box p{
     margin-top: 10px;
 }
 
-.featured-images {
-    margin: 10px;
-}
-
 .top-images{
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bottom-images{
-  display: flex;
-  justify-content: center;
+.bottom-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
 }
 
 .featured-images {
     height: 200px;
     width: 300px;
+    margin: 10px;
 }
 
 /*====Location Section====*/
@@ -118,21 +119,22 @@ ul {
     flex-wrap: wrap;
     background-image: url(/images/img-locations-background.jpg);
     height: 500px;
-    width: 100%;
+    width: 1200px;
     opacity: .9;
-    margin-top: 30px;
+    margin: 30px auto;
+    position: relative;
+    
 }
 
 .location-title {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-basis: 100%;
+    width: 100%;
 }
 
 .location-box {
     display: flex;
-    flex-shrink: 5;
     width: 300px;
     height: 300px;
     background-color: black;
@@ -143,7 +145,6 @@ ul {
     margin: 15px 40px ;
     opacity: 1;
 }
-
 /*====Footer Section====*/
 
 .contact-container {
