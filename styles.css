@@ -117,7 +117,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(/images/img-locations-background.jpg);
+    background-image: url(images/img-locations-background.jpg);
     height: 500px;
     width: 1200px;
     opacity: .9;
